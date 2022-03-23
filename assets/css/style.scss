@@ -709,12 +709,10 @@ body {
 @media (max-width: 999px) {
   .navbar {
     .content {
-      flex-direction: column;
-      align-items: flex-start;
+      .brand-name img {
+        width: 57px !important;
+      }
       .cart {
-        position: absolute;
-        top: 20px;
-        left: 20px;
         
         .cart-img {
           border-radius: 50%;
@@ -727,7 +725,7 @@ body {
 
       .form-contain {
         width: 300px;
-        margin-top: 10px;
+        margin: 0px 10px;
       }
     }
   }
