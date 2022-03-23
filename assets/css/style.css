@@ -2122,6 +2122,9 @@ body {
 }
 
 @media (max-width: 999px) {
+  .navbar {
+    padding: 4px 0px;
+  }
   .navbar .content .brand-name img {
     width: 57px !important;
   }
@@ -2136,13 +2139,16 @@ body {
     margin: 0px 10px;
   }
   .products {
-    padding: 20px 0px;
+    padding: 9px 0px;
   }
   .products .nav {
-    padding: 0px 0px 3px !important;
+    padding: 0px 0px 4px !important;
+  }
+  .product-box {
+    padding: 0px 10px 5px;
   }
   .product-box .image-content img {
-    height: 140px !important;
+    height: 124px !important;
   }
   .product-box h2 {
     font-size: 15px;
