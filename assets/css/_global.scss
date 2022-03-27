@@ -69,17 +69,22 @@ ul{
 }
 
 .owl-theme .owl-dots .owl-dot span{
-    width: 20px;
+    width: 30px;
     height: 4px;
     border-radius: 4px;
-    background-color: #FFD371;
+    background-color: #e9e6e2;
     opacity: .5;
     transition: all .5s linear;
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #FFD371;
     opacity: 1;
+}
+
+.owl-stage {
+    padding: 20px 0px;
 }
 
 .overflowNone{
