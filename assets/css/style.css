@@ -1426,7 +1426,7 @@ body {
 
 .products {
   width: 100%;
-  padding: 100px 0px 50px 0px;
+  padding: 20px 0px 30px 0px;
 }
 
 .products .nav {
@@ -1446,12 +1446,13 @@ body {
       flex-wrap: nowrap;
   overflow-x: scroll;
   overflow-y: hidden;
-  padding: 20px 0px;
+  padding: 0px 0px 10px 0px;
   border: 0px;
 }
 
 .products .nav::-webkit-scrollbar-track, .products .nav::-webkit-scrollbar-thumb, .products .nav::-webkit-scrollbar-thumb:hover {
   background: transparent !important;
+  height: 5px !important;
 }
 
 .products .nav li {
