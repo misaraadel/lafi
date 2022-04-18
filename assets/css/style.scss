@@ -272,6 +272,13 @@ body {
       font-weight: 500;
       margin-bottom: 10px;
       text-align: center;
+      display: flex;
+      align-items: center;
+      align-content: center;
+
+      span {
+        margin-inline-end: 10px;
+      }
     }
 
     h4 {
